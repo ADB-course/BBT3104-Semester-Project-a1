@@ -1,5 +1,5 @@
 -- Write your SQL code here
---tables without check constraints
+--TABLE WITHOUT CHECK CONSTRAINTS
 CREATE DATABASE brookside_project; 
 USE brookside_project;
 
@@ -26,7 +26,7 @@ CREATE TABLE DairyFarmer (
 CREATE INDEX idx_dairy_farmer ON DairyFarmer (FarmerName);
 
 
---table with check constraints
+--TABLE WITH CHECK CONSTARINTS
 -- Adding Supplier Table with Check Constraint
 CREATE TABLE Supplier (
     SupplierID INT PRIMARY KEY,
